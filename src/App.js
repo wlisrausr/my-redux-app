@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { voteAngular, voteReact, voteVuejs } from "./actions";
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   constructor(props) {
@@ -25,8 +24,7 @@ class App extends Component {
     return (
       <div>
         <div
-          className="jumbotron"
-          style={{ textAlign: "center", marginTop: "2%" }}
+          className="jumbotron jumbotron-addition"
         >
           <img src="ctsw_logo.png" height="96" alt="CodingTheSmartWay.com" />
           <h2>What is your favorite front-end development framework 2017?</h2>
