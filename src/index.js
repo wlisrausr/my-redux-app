@@ -4,6 +4,7 @@ import { createStore } from "redux";
 import myApp from "./reducers";
 import App from "./App";
 import Results from "./components/result";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 let store = createStore(myApp);
 
