@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
-import myApp from './reducers';
-import App from './App';
-import Results from './components/result'
+import React from "react";
+import ReactDOM from "react-dom";
+import { createStore } from "redux";
+import myApp from "./reducers";
+import App from "./App";
+import Results from "./components/result";
 
 let store = createStore(myApp);
 
@@ -14,7 +14,7 @@ function render() {
       <hr />
       <Results store={store} />
     </div>,
-    document.getElementById('root')
+    document.getElementById("root")
   );
 }
 

@@ -24,7 +24,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="jumbotron" style={{ textAlign: "center", marginTop: "2%" }}>
+        <div
+          className="jumbotron"
+          style={{ textAlign: "center", marginTop: "2%" }}
+        >
           <img src="ctsw_logo.png" height="96" alt="CodingTheSmartWay.com" />
           <h2>What is your favorite front-end development framework 2017?</h2>
           <h4>Click on the logos below to vote!</h4>
